@@ -1,3 +1,11 @@
+catboost_info
+lightning_logs
+modelcatholdout2
+modellgb
+modelxgb
+output
+models
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
