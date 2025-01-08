@@ -13,6 +13,7 @@ apt-get install vim -y
 apt-get install htop -y
 apt-get install unzip -y
 apt-get install build-essential -y
+apt-get install nvidia-opencl-dev opencl-headers -y
 pip install uv
 
 echo "****************************************************"
