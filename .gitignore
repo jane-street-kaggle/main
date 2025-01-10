@@ -3,7 +3,8 @@ lightning_logs
 modelcatholdout2
 modellgb
 modelxgb
-output
+output/*.pkl
+output/*.dill
 models
 
 # Byte-compiled / optimized / DLL files
