@@ -16,4 +16,4 @@ uv pip install \
     --no-binary lightgbm \
     --config-settings=cmake.define.USE_CUDA=OFF \
     lightgbm
-uv pip install protobuf grpcio wandb
+uv pip install protobuf grpcio wandb jupyter notebook
