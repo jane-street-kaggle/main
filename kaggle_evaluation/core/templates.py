@@ -2,11 +2,10 @@
 
 import abc
 import os
-import time
 import sys
+import time
 import traceback
 import warnings
-
 from typing import Callable, Generator, Tuple
 
 import kaggle_evaluation.core.base_gateway

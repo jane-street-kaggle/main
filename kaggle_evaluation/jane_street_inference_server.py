@@ -1,7 +1,7 @@
 
-import kaggle_evaluation.core.templates
-
 import jane_street_gateway
+
+import kaggle_evaluation.core.templates
 
 
 class JSInferenceServer(kaggle_evaluation.core.templates.InferenceServer):

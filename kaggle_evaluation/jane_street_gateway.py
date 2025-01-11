@@ -2,9 +2,10 @@
 
 import os
 
+import polars as pl
+
 import kaggle_evaluation.core.base_gateway
 import kaggle_evaluation.core.templates
-import polars as pl
 
 
 class JSGateway(kaggle_evaluation.core.templates.Gateway):

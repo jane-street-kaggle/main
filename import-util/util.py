@@ -1,6 +1,7 @@
 import numpy as np
 import polars as pl
 
+
 def reduce_memory(df: pl.DataFrame) -> pl.DataFrame:
     """Optimize data types for memory usage in Polars"""
     start_mem = df.estimated_size() / (1024**2)

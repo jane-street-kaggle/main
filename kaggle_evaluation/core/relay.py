@@ -5,15 +5,14 @@ special data science types like DataFrames or np.ndarrays, with gRPC + protobuf
 as a backing implementation.
 '''
 
-import grpc
 import io
 import json
 import socket
 import time
-
 from concurrent import futures
 from typing import Callable, List, Tuple
 
+import grpc
 import numpy as np
 import pandas as pd
 import polars as pl
@@ -21,7 +20,6 @@ import pyarrow
 
 import kaggle_evaluation.core.generated.kaggle_evaluation_pb2 as kaggle_evaluation_proto
 import kaggle_evaluation.core.generated.kaggle_evaluation_pb2_grpc as kaggle_evaluation_grpc
-
 
 _SERVICE_CONFIG = {
     # Service config proto: https://github.com/grpc/grpc-proto/blob/ec886024c2f7b7f597ba89d5b7d60c3f94627b17/grpc/service_config/service_config.proto#L377

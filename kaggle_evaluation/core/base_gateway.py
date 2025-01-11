@@ -8,7 +8,6 @@ import os
 import pathlib
 import re
 import subprocess
-
 from socket import gaierror
 from typing import List, Optional, Tuple, Union
 
@@ -17,7 +16,6 @@ import pandas as pd
 import polars as pl
 
 import kaggle_evaluation.core.relay
-
 
 _FILE_SHARE_DIR = '/kaggle/shared/'
 IS_RERUN = os.getenv('KAGGLE_IS_COMPETITION_RERUN') is not None
