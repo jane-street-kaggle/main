@@ -16,13 +16,10 @@ micromamba activate kaggle
 micromamba config append channels conda-forge
 micromamba config append channels torch 
 # linux-cuda 12.4
-micromamba install --yes -c conda-forge boost
+micromamba install boost -c conda-forge -y
 micromamba install pytorch torchvision torchaudio pytorch-cuda=12.4 -y -c pytorch -c nvidia 
+micromamba install numpy=1.26.4 scikit-learn=1.5.2 lightning polars xgboost dill matplotlib optuna kaggle pandas pyarrow fastparquet catboost grpc-cpp -y -c conda-forge 
 
-micromamba install cuda -c nvidia -y
-micromamba install numpy=1.26.4 scikit-learn=1.5.2 lightning polars xgboost dill matplotlib optuna kaggle pandas pyarrow fastparquet catboost -y -c conda-forge 
-micromamba install conda-forge::grpc-cpp -y 
-micromamba install pyarrow -c conda-forge -y
 kaggle competitions download -c jane-street-real-time-market-data-forecasting
 unzip jane-street-real-time-market-data-forecasting.zip 'kaggle_evaluation/*'
 mkdir -p /kaggle/input/jane-street-realtime-marketdata-forecasting
