@@ -16,4 +16,5 @@ uv pip install \
     --no-binary lightgbm \
     --config-settings=cmake.define.USE_CUDA=OFF \
     lightgbm
-uv pip install protobuf grpcio wandb jupyter notebook rtdl_revisiting_models rtdl_num_embeddings "ray[all]"
+# uv pip install protobuf grpcio wandb jupyter notebook rtdl_revisiting_models rtdl_num_embeddings "ray[all]" boost lightning polars xgboost dill matplotlib optuna kaggle pandas pyarrow fastparquet catboost grpcio joblib
+uv pip install protobuf grpcio wandb jupyter notebook rtdl_revisiting_models rtdl_num_embeddings "ray[all]" 
