@@ -6,6 +6,7 @@ modelxgb
 output/*.pkl
 output/*.dill
 models
+jane-street-real-time-market-data-forecasting.zip
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
