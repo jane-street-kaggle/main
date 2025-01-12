@@ -7,7 +7,6 @@ output/*.pkl
 output/*.dill
 models
 jane-street-real-time-market-data-forecasting.zip
-import-cnn-lstm
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
